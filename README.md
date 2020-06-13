@@ -1,6 +1,6 @@
 # extender代码
 
-```
+```java
 func filter(args schedulerapi.ExtenderArgs) *schedulerapi.ExtenderFilterResult { 
 var filteredNodes []v1.Node 
 failedNodes := make(schedulerapi.FailedNodesMap) 
@@ -37,7 +37,7 @@ Score: score,
 }
 return &hostPriorityList 
 }
-```java
+```
 
 
 extender运行逻辑：<br>
