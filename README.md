@@ -37,7 +37,7 @@ Score: score,
 }
 return &hostPriorityList 
 }
-```
+```java
 
 
 extender运行逻辑：<br>
