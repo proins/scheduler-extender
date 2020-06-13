@@ -1,6 +1,6 @@
 # extender代码
 
-```java
+```go
 func filter(args schedulerapi.ExtenderArgs) *schedulerapi.ExtenderFilterResult { 
 var filteredNodes []v1.Node 
 failedNodes := make(schedulerapi.FailedNodesMap) 
